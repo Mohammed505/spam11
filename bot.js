@@ -15,7 +15,7 @@ client.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
     
-    if(command == ".2s") {
+    if(command == ".1s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
